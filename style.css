@@ -37,8 +37,8 @@ h1 {
 }
 
 .disabled {
-  cursor: none;
-  opacity: 0.6;
+  cursor: none !important;
+  background-color: rgba(0, 255, 255, 0.6) !important;
 }
 
 .icon {
