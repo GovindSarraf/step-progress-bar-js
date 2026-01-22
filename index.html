@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Step Progress Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Step Progress Bar</h1>
+  <div class="progress-bar">
+    <div class="step active" data-step="1">
+      <div class="top-content">
+        <div class="icon-box">
+          <div class="check-icon">&#10003;</div>
+        </div>
+        <hr>
+      </div>
+      <p>Start</p>
+    </div>
+    <div class="step" data-step="2">
+      <div class="top-content">
+        <div class="icon-box">
+          <div class="wrong-icon">&#10005;</div>
+        </div>
+        <hr>
+      </div>
+      <p>Step 2</p>
+    </div>
+    <div class="step" data-step="3">
+      <div class="top-content">
+        <div class="icon-box">
+          <div class="wrong-icon">&#10005;</div>
+        </div>
+        <hr>
+      </div>
+      <p>Step 3</p>
+    </div>
+    <div class="step" data-step="4">
+      <div class="top-content">
+        <div class="icon-box">
+          <div class="wrong-icon">&#10005;</div>
+        </div>
+        <hr>
+      </div>
+      <p>Step 4</p>
+    </div>
+    <div class="step" data-step="5">
+      <div class="top-content">
+        <hr>
+        <div class="icon-box">
+          <div class="wrong-icon">&#10005;</div>
+        </div>
+      </div>
+      <p>End</p>
+    </div>
+  </div>
+  <div class="btn-container">
+    <button class="btn left-btn disabled">
+      <div class="arrow-icon icon">&#8592;</div>
+    </button>
+    <button class="btn right-btn">
+      <div class="right-icon icon">&#8594;</div>
+    </button>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
