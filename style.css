@@ -37,7 +37,7 @@ h1 {
 }
 
 .disabled {
-  cursor: not-allowed;
+  cursor: none;
   opacity: 0.6;
 }
 
